@@ -1,207 +1,403 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ukrainian Language</title>
 
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      body {
+        margin: 0;
+        font-size: 20px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-rendering: optimizeLegibility;
+      }
+
+      .content {
+        max-width: 640px;
+        margin: auto;
+      }
+
+      .header {
+        padding: 3em 0;
+      }
+
+      a {
+        color: #f05349;
+      }
+
+      .footer {
+        background: #f4f4f4;
+        text-align: center;
+        font-size: 0.8em;
+        margin-top: 4em;
+        padding: 4em 0;
+      }
+
+      figure {
+        margin: 0;
+        padding-bottom: 1.2em;
+      }
+
+      figcaption {
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: 0.5em;
+        color: #666;
+      }
+
+      h1 {
+        font-family: "Lora", Georgia, serif;
+        font-weight: bold;
+        font-size: 3em;
+        line-height: 1.1;
+      }
+
+      .subhead {
+        font-family: "Lora", Georgia, serif;
+      }
+
+      iframe,
+      img,
+      video {
+        max-width: 100%;
+      }
+
+      p {
+        line-height: 1.6;
+        margin: 0;
+        padding-bottom: 1.2em;
+      }
+
+      ul {
+        margin: 0;
+        padding-bottom: 1em;
+        line-height: 1.6;
+      }
+
+      iframe {
+        padding-bottom: 1.2em;
+      }
+
+      code {
+        font-family: "Courier New", monospace;
+        background: #fffbaf;
+        font-size: 0.85em;
+      }
+
+      .full-width figure {
+        text-align: center;
+      }
+      .svg-container {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; /* Centers vertically */
+        height: 100vh; /* Full viewport height */
+        width: 640px;
+      }
+
+      /* margin on mobile */
+      @media (max-width: 640px) {
         body {
-            margin: 0;
-            font-size: 20px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-rendering: optimizeLegibility;
+          font-size: 18px;
         }
 
         .content {
-            max-width: 640px;
-            margin: auto;
+          padding-left: 0.5em;
+          padding-right: 0.5em;
         }
-
-        .header {
-            padding: 3em 0;
-        }
-
-        a {
-            color: #f05349;
-        }
-
-        .footer {
-            background: #f4f4f4;
-            text-align: center;
-            font-size: 0.8em;
-            margin-top: 4em;
-            padding: 4em 0;
-        }
-
-        figure {
-            margin: 0;
-            padding-bottom: 1.2em;
-        }
-
-        figcaption {
-            font-size: 0.8em;
-            text-align: center;
-            margin-top: 0.5em;
-            color: #666;
-        }
-
-        h1 {
-            font-family: 'Lora', Georgia, serif;
-            font-weight: bold;
-            font-size: 3em;
-            line-height: 1.1;
-        }
-
-        .subhead {
-            font-family: 'Lora', Georgia, serif;
-        }
-
-        iframe,
-        img,
-        video {
-            max-width: 100%;
-        }
-
-        p {
-            line-height: 1.6;
-            margin: 0;
-            padding-bottom: 1.2em;
-        }
-
-        ul {
-            margin: 0;
-            padding-bottom: 1em;
-            line-height: 1.6;
-        }
-
-        iframe {
-            padding-bottom: 1.2em;
-        }
-
-        code {
-            font-family: 'Courier New', monospace;
-            background: #fffbaf;
-            font-size: 0.85em;
-        }
-
-        .full-width figure {
-            text-align: center;
-        }
-
-        /* margin on mobile */
-        @media (max-width: 640px) {
-            body {
-                font-size: 18px;
-            }
-
-            .content {
-                padding-left: 0.5em;
-                padding-right: 0.5em;
-            }
-        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="content">
-        <div class="header">
-            <h1>Language Renaissance. How the full-scale war has pushed Ukrainians to abandon Russian</h1>
-            <p class="subhead">The active phase of Russia's war against Ukraine has prompted more and more Ukrainians to speak their state language. Many of them have minimized or abandoned Russian, as well as everything Russian. Ironic, since "denationalization" was one of the Kremlin's stated goals to start the war.Centuries of persecution of Ukrainian speakers in the Russian Empire, the Soviet Union and present-day Russia have not passed without a trace. And even with the independence of Ukraine, a huge number of people continued to speak the familiar Russian language. However, the Orange Revolution, the Revolution of Dignity, the annexation of Crimea, the war in the east, the full-scale invasion - all these historical events have affected the desire of Ukrainians to continue speaking Russian. Our research shows that the full-scale war accelerated the process of Ukrainians switching to their state language several times over, even where it was rarely used.
-                - we collected and analyzed 3.75 million Ukrainian posts on Facebook and Telegram, as well as Google Trends data, to find out how the war affected Ukrainians' language preferences after the full-scale invasion began;
- 
-- we talked to people from different regions of Ukraine and determined what motivated them to give up Russian; 
- 
--we tell you what events in Ukrainian history have most affected Ukrainians' attitudes toward Russian. 
-            </p>
-        </div>
-        <div class="byline">
-            <p>By <a href="https://anastasiiamorozova.github.io/portfolio/">Anastasiia Morozova</a></p>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat.</p>
-        <p>You can change the fonts by using <a href="https://fonts.google.com/">Google Fonts</a> and some CSS. Right
-            now we're using Lora for headlines and Georgia for body copy.</a></p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.</p>
-
-        <iframe title="The biggest pumpkins, by state (Copy)" aria-label="Bar Chart" id="datawrapper-chart-MLQxw"
-            src="https://datawrapper.dwcdn.net/MLQxw/1/" scrolling="no" frameborder="0"
-            style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe>
-        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
-        </script>
-
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-            dolores eos qui ratione voluptatem sequi nesciunt.</p>
+      <div class="header">
+        <h1>Language Renaissance</h1>
+        <h1>
+          How the full-scale war has pushed Ukrainians to abandon Russian
+          language
+        </h1>
+        <p class="subhead">
+          The active phase of Russia's war against Ukraine has prompted more and
+          more Ukrainians to speak their state language. Many of them have
+          minimized or abandoned Russian language, as well as everything
+          Russian.<br />
+          Centuries of persecution of Ukrainian speakers in the Russian Empire,
+          the Soviet Union and present-day Russia have not passed without a
+          trace. And even with the independence of Ukraine, a huge number of
+          people continued to speak the familiar Russian language.
+        </p>
+        <p class="subhead">
+          However, the Orange Revolution, the Revolution of Dignity, the
+          annexation of Crimea, the war in the east, the full-scale invasion
+          have affected the desire of Ukrainians to continue speaking Russian.
+        </p>
 
         <ul>
-            <li>One thing</li>
-            <li>A second thing</li>
-            <li>A third thing</li>
+          <li>
+            I collected and analyzed 3.75 million Ukrainian posts on Facebook
+            and Telegram, as well as Google Trends data, to find out how the war
+            affected Ukrainians' language preferences;
+          </li>
+          <li>
+            I talked to people from different regions of Ukraine and determined
+            what motivated them to give up Russian;
+          </li>
+          <li>A third thing</li>
         </ul>
-
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-            dolores eos qui ratione voluptatem sequi nesciunt.</p>
-        <figure>
-            <img
-                src="https://static01.nyt.com/images/2024/02/01/multimedia/01eu-hungary-orban-2-ghkw/01eu-hungary-orban-2-ghkw-superJumbo.jpg?quality=75&auto=webp">
-            <figcaption>This is an image caption</figcaption>
-        </figure>
-        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
-            numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-            veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-            consequatur?</p>
-    </div>
-    <div class="full-width">
-        <figure>
-            <img
-                src="https://static01.nyt.com/images/2024/02/01/multimedia/01eu-hungary-orban-2-ghkw/01eu-hungary-orban-2-ghkw-superJumbo.jpg?quality=75&auto=webp">
-            <figcaption>This is another image caption, but this time it's a full-width image</figcaption>
-        </figure>
-    </div>
-    <div class="content">
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-            atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
-            sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
-            optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
-            omnis dolor repellendus.</p>
-    </div>
-    <div class="full-width">
-        <figure>
-            <video src="bg-video.mp4" preload="auto" tabindex="0" playsinline autoplay loop muted></video>
-            <figcaption>This is an auto-play video. I had to edit the CSS from the original form a little, added
-                <code>max-width: 100%</code> for the <code>video</code> tag.</figcaption>
-        </figure>
-    </div>
-    <div class="content">
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-            atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
-            sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
-            optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
-            omnis dolor repellendus.</p>
-    </div>
-    <div class="footer">
-        <div class="content">
-            <p>You can find the code for this template <a href="https://github.com/jsoma/page-templates/">here</a>.
-                Delete these lines
-                when you use it, and don't forget to change the <code>title</code> tag!!!</p>
+        <div class="byline">
+          <p>
+            By
+            <a href="https://anastasiiamorozova.github.io/portfolio/"
+              >Anastasiia Morozova</a
+            >
+          </p>
         </div>
-    </div>
-</body>
+        <div class="svg-container">
+          <object data="Picture 1.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+      <h1>Julianna Skibitskaya: "I don't communicate in Russian anymore"</h1>
+      <p>
+        Journalist Yulianna Skibitskaya lives and works in Kiev. She spent her
+        childhood in the mid-90s in Zaporizhzhya - in a Russian-speaking
+        environment. In high school, the girl's educational institution switched
+        to the Ukrainian language of teaching. However, she still had to finish
+        her studies according to the old version of textbooks - in Russian.
+      </p>
 
+      <p>
+        "For quite a long time I had as many lessons of Russian language and
+        literature as lessons of Ukrainian, - says Yulianna. - You could say
+        that all my childhood and for quite a long time in my youth I was
+        brought up in a Russian-speaking environment, and I probably only had a
+        couple of friends from Zaporizhzhya who spoke Ukrainian."
+      </p>
+
+      <p>
+        At the height of the Revolution of Dignity in 2013, she traveled to Kiev
+        to express her position. At that time, not only residents of the city,
+        but also people who had specially arrived from other regions came to
+        Maidan and the streets of the capital to protest. Yulianna was among
+        them.
+      </p>
+
+      <p>
+        "In Kiev, I didn't have the feeling that it was a completely different
+        world. I do not remember that Kiev then was strongly Ukrainian-speaking,
+        - recalls the journalist. - I had friends there, at work, somewhere else
+        - and they were all Russian-speaking. I was brought up in Russian, I did
+        not want to give it up.
+      </p>
+
+      <div class="svg-container">
+        <object data="kyiv.svg" type="image/svg+xml"></object>
+      </div>
+
+      <p>
+        Over the years, more and more Ukrainian-speaking acquaintances appeared
+        in Yulianna's entourage and speaking Ukrainian became a habit, although
+        there was no goal to stop speaking Russian. It didn't appear until the
+        day of the full-scale invasion on February 24, 2022.
+      </p>
+
+      <h1>
+        Yulia Khodyunova: "When I speak a lot of Ukrainian, I even get
+        physically tired"
+      </h1>
+
+      <p>
+        According to the last Ukrainian census in 2001, up to 4% of the
+        population in the West of the country considered Russian to be their
+        native language. Pensioner Yulia Khodyunova from Rivne belongs to this
+        small group. However, after the full-scale invasion, she switched
+        completely to Ukrainian. Her mother comes from the Kharkiv region. When
+        she was young, she moved to Siberia to earn a living. There she met her
+        future husband and had children. From an early age, her mother instilled
+        in Yulia a love for Ukrainian culture, but the family spoke Russian.
+        Ukrainian words were remembered only from folk songs. Her mother sang
+        them to her exclusively in Ukrainian.
+      </p>
+
+      <p>
+        Later Yulia moved to Ukraine to work at the Rovno nuclear power plant.
+        In those years it was possible to get an apartment for working there.
+      </p>
+
+      <p>
+        While in 2018 in Ternopil, Ivano-Frankivsk and Lviv regions, the vast
+        majority of Internet queries were in Ukrainian, in Volyn and Rivne
+        regions quite a few people spoke Russian. However, already by 2023, the
+        number of Google queries in Ukrainian exceeded the number of queries in
+        Russian by 3-4 times.
+      </p>
+
+      <p>
+        In public groups in social networks there were almost no messages of
+        residents of Ternopil, Ivano-Frankivsk, Lviv, Volyn and Rivne regions in
+        Russian. But in the first months of the invasion, the use of the Russian
+        language increased sharply in the regions - then residents of eastern
+        regions of Ukraine evacuated to the west of the country. In March and
+        April 2022, the share of Russian language in these regions grew, and
+        later went down again.
+      </p>
+
+      <p>
+        After the full-scale invasion, Yulia decided to completely abandon
+        Russian in communication. However, in such a Ukrainian-speaking region,
+        it was not easy for Yulia to find opportunities to learn the language
+        with the help of specialists. According to her, there were mostly
+        English language courses in Rivne, and similar courses for learning
+        Ukrainian could not be found immediately.
+      </p>
+
+      <p>
+        "After the first victims, I wanted to change my place of birth. But this
+        is my personal story. Yes, I was born in Russia. What can you do about
+        it now? I myself began to be corrupted by my speech. I guess I've
+        reached a point of no return, says the woman. - I can't say that twenty
+        lessons have passed and I'm suddenly fluent in Ukrainian. When I speak a
+        lot of Ukrainian, I even get physically tired. But this is the only way
+        to improve the language."
+      </p>
+
+      <h1>
+        Viktor Kachanov: "They asked me not to agonize and switch to Russian"
+      </h1>
+
+      <p>
+        Pensioner Viktor Kachanov was born and lives in Dnipro. He is a
+        volunteer and photographer, as well as an active participant of the
+        "United" conversation club. Back in the days of Maidan, in 2013, his
+        friends began to switch to Ukrainian. With the beginning of the war in
+        the east, even more of them preferred Ukrainian to Russian. However,
+        then Viktor did not dare to switch to the state language. The point of
+        no return was the Russian invasion in 2022.
+      </p>
+
+      <p>
+        Viktor explains, he studied in a Soviet-era school. At that time, his
+        school did not teach Ukrainian. In conversation classes, he was
+        energized by the mutual support. "No one says you're bad at something.
+        Everyone tries to help each other," the man shares. His old
+        acquaintances and some of his relatives did not immediately believe that
+        Viktor had seriously decided to switch to Ukrainian.
+      </p>
+      <p>
+        "They asked me not to agonize and switch to Russian. However, I did not
+        make concessions," recalls a participant of the "United" conversation
+        club. - Moments of personal attitude - desire and language stability -
+        are very important. At first, I formed a vocabulary on everyday and
+        professional topics. Waking up in the morning, I described my actions in
+        Ukrainian and destroyed the switch to Russian. I changed the language of
+        all gadgets and social networks, read and listened to audiobooks in
+        Ukrainian".
+      </p>
+
+      <p>
+        Now Viktor Kachanov finds it difficult to communicate in Russian. He
+        urges not to be afraid of making mistakes, to speak Surzhyk, to study
+        Ukrainian history and the formation of the nation. The man is sure that
+        until a person himself realizes that he needs it, no one can force him.
+      </p>
+      <p>
+        According to data in the social networks Telegram and Facebook, in the
+        year since the invasion, the use of Ukrainian language in relation to
+        Russian has doubled - from 22.3% to 44%. If before the invasion the
+        share of Russian-language messages amounted to about 78% of messages,
+        two years later it has decreased to 56%. This is confirmed by the
+        results of a sociological survey in the Kyiv Digital app: today 86% of
+        Kyiv residents consider Ukrainian their native language, but only 44% of
+        Kyiv residents use it in everyday life.
+      </p>
+
+      <h1>Do people write the same language they think?</h1>
+
+      <p>
+        Independent creative Marina Chernyavskaya also sees a commercial problem
+        in the Ukrainianization of content on the Internet. She now works on a
+        freelance basis, helping businesses to build their marketing and PR
+        strategies. Until 2012, Marina worked in the Ukrainian branch of a
+        Russian advertising agency. For the startups she worked with, the
+        Russian language was always more advantageous, because this way they
+        could reach not only customers or users from Ukraine and Russia, but
+        also from countries where Russian is quite common among the population,
+        such as Kazakhstan.
+      </p>
+
+      <p>
+        In her opinion, the big changes in the marketing and content industry on
+        the Internet occurred due to the fact that Russian businesses left the
+        market, and advertising agencies stopped focusing on two countries at
+        once. At the same time, it was primarily the government's initiatives at
+        the legislative level that led to real results, followed by changes in
+        the consciousness of the population.
+      </p>
+
+      <p>
+        "The only radical noticeable fact is the law on language. Not because we
+        have become more conscious, but because we can be fined for a sign in
+        Russian. Television and radio advertisements were in Ukrainian, but
+        Internet advertisements, which are more popular and effective, remained
+        in Russian."
+      </p>
+
+      <p>
+        The law that Marina recalls was signed by President Petro Poroshenko in
+        2019. It obliged all advertisers and media on the Internet to use the
+        Ukrainian language, without restricting the existence of the Russian
+        version of the website. Thus any outdoor advertising in public places
+        and advertising on the Internet is obliged to be published only in the
+        Ukrainian language.
+      </p>
+
+      <p>
+        "Now the attitude has changed not only to the product, but also to the
+        market as a whole, we started to look with more respect at what we do
+        ourselves, and to look less at Moscow and at Moscow salaries, although
+        this continued, because we are traumatized by it.
+      </p>
+
+      <p>
+        Despite the state's attempts to change the language habits of the
+        population, before the invasion almost half of Ukrainian families spoke
+        Russian in everyday life. Now the stumbling block in the language debate
+        is the Russian language option on selling websites.
+      </p>
+
+      <p>
+        Most popular queries on Google have the same trend - the use of Russian
+        is decreasing, Ukrainian is increasing. Most often in Ukrainian people
+        are looking for congratulations, including birthday greetings. However,
+        some queries such as "buy a car" or "iPhone price" related to sales are
+        not really so dynamic.
+      </p>
+    </div>
+
+    <div class="full-width">
+      <figure>
+        <video
+          src="ezgif-2-e01b96740a.mp4"
+          preload="auto"
+          tabindex="0"
+          playsinline
+          autoplay
+          loop
+          muted
+        ></video>
+        <figcaption>
+          Google searches data comparison between 2018 and 2023
+        </figcaption>
+      </figure>
+    </div>
+  </body>
 </html>
